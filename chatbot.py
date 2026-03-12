@@ -23,9 +23,9 @@ if api_key == None:
 
 def load_data():
     docs = []
-    loader = TextLoader("store_data/aboutus.md")
+    loader = TextLoader("storedata/aboutus.md")
     docs += loader.load()
-    with open("store_data/products.json", "r") as f:
+    with open("storedata/products.json", "r") as f:
         data = json.load(f)
         for item in data["products"]:
             content = f"{item['name']}: {item['description']} - Price: {item['price']}"
