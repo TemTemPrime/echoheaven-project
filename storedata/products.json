@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Bamboo Toothbrush",
+      "description": "Biodegradable and eco-friendly toothbrush made from bamboo.",
+      "price": "₦2,000"
+    },
+    {
+      "name": "Reusable Grocery Bag",
+      "description": "Strong and washable shopping bag made from recycled fabric.",
+      "price": "₦1,500"
+    },
+    {
+      "name": "Eco Soap Bar",
+      "description": "Handmade soap with no artificial chemicals or plastic packaging.",
+      "price": "₦1,000"
+    },
+    {
+      "name": "Solar Lantern",
+      "description": "Rechargeable lantern ideal for off-grid and energy-saving use.",
+      "price": "₦5,000"
+    },
+    {
+      "name": "Compost Bin",
+      "description": "Indoor compost bin made for kitchen waste.",
+      "price": "₦12,000"
+    }
+  ]
+}
