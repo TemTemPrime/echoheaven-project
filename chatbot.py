@@ -37,10 +37,12 @@ def build_vectorstore():
     splits = text_splitter.split_documents(docs)
     embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001",google_api_key=api_key)
     return  FAISS.from_documents(splits, embeddings)
-
+    
 def ask_echo_heaven(question):
-
     db = build_vectorstore(api_key)
+
+
+   
 
     retriever = db.as_retriever(search_kwargs={"k": 2})
 
