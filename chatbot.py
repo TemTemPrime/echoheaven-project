@@ -38,7 +38,7 @@ def build_vectorstore():
     embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001",google_api_key=api_key)
     return  FAISS.from_documents(splits, embeddings)
 
-def ask_echo_heaven(question, api_key):
+def ask_echo_heaven(question):
 
     db = build_vectorstore(api_key)
 
