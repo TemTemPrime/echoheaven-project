@@ -39,7 +39,7 @@ def build_vectorstore():
     return  FAISS.from_documents(splits, embeddings)
     
 def ask_echo_heaven(question):
-    db = build_vectorstore(api_key)
+    db = build_vectorstore()
 
 
    
